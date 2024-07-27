@@ -5,7 +5,7 @@ import { RouteProp, useRoute } from '@react-navigation/native';
 
     const route:any = useRoute();
     const { name } = route.params;
-
+    // console.log(name)
     return(
 
         <Container>

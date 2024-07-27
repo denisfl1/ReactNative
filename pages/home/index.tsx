@@ -2,8 +2,12 @@ import React from 'react';
 import {TitleList,Container, RowData,InfoData, BtnView,Pagination,PaginationText,PaginationTextActive} from '../../app/styles/custom_adm'
 import { ScrollView ,TouchableOpacity} from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+const Tab = createBottomTabNavigator()
 
 export default function HomeScreen() {
+
+
 
   interface INavigate{
     navigate:(data1:string,data2:object)=>void
@@ -42,8 +46,9 @@ export default function HomeScreen() {
       </RowData>
   )
       })}
-      
 
+        
+    
 
       <Pagination>
 

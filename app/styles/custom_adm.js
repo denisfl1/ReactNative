@@ -5,7 +5,8 @@ export const Container = styled.SafeAreaView`
     justify-content:flex-start;
     align-items:stretch;
     background-color:#742fc2;
-    padding:8px;
+    padding:10px;
+    padding-top:30px;
 
 `;
 
